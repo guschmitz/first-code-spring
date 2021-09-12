@@ -1,0 +1,11 @@
+package com.schmitz.saleSpring.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.schmitz.saleSpring.entities.Order;
+
+public interface OrderRepository extends JpaRepository<Order, Long> {
+	
+	
+
+}
